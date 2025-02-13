@@ -1,7 +1,7 @@
-#!/bin/sh
+##!/bin/sh
 #create a T2-MEDIUM REDHAT INSTANCE IN AWS and install Jenkins
-# The scripts/commands that follows will have jenkins installed
-sudo hostnamectl set-hostname auto
+#The scripts/commands that follows will have jenkins installed
+#sudo hostnamectl set-hostname auto
 sudo yum -y install unzip wget tree git -y
 # Add required dependencies for the jenkins package
 sudo yum install fontconfig java-17-openjdk -y
